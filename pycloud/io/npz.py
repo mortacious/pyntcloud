@@ -31,7 +31,7 @@ def write_npz(filename, **kwargs):
     filename: str
         The created file will be named with this
 
-    kwargs: Elements of the pyntcloud to be saved
+    kwargs: Elements of the pycloud to be saved
 
     Returns
     -------

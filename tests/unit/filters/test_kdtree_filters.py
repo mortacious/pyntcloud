@@ -2,7 +2,7 @@ import pytest
 
 from numpy.testing import assert_array_equal
 
-from pyntcloud.filters.kdtree import (
+from pycloud.filters.kdtree import (
     KDTreeFilter,
     RadiusOutlierRemovalFilter,
     StatisticalOutlierRemovalFilter

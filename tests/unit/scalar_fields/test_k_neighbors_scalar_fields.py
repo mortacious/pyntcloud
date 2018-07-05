@@ -2,7 +2,7 @@ import pytest
 
 import numpy as np
 
-from pyntcloud.scalar_fields.k_neighbors import (
+from pycloud.scalar_fields.k_neighbors import (
     EigenValues,
     EigenDecomposition,
     UnorientedNormals

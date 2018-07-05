@@ -1,3 +1,5 @@
+from functools import partial
+
 from .ascii import read_ascii, write_ascii
 from .las import read_las
 from .npz import read_npz, write_npz
@@ -18,6 +20,7 @@ FROM = {
     "PTS": read_ascii,
     "TXT": read_ascii,
     "XYZ": read_ascii,
+    "3D" : partial(read_ascii, delimiter=" "),
 }
 
 TO = {
@@ -29,4 +32,5 @@ TO = {
     "PTS": write_ascii,
     "TXT": write_ascii,
     "XYZ": write_ascii,
+    "3D" : write_ascii,
 }

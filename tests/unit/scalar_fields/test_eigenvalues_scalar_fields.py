@@ -2,7 +2,7 @@ import pytest
 
 import numpy as np
 
-from pyntcloud.scalar_fields.eigenvalues import (
+from pycloud.scalar_fields.eigenvalues import (
     Anisotropy,
     Curvature,
     Eigenentropy,

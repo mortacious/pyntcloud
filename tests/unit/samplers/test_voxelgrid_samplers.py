@@ -1,12 +1,12 @@
 import pytest
 
-from pyntcloud.samplers import (
+from pycloud.samplers import (
     VoxelgridCentersSampler,
     VoxelgridCentroidsSampler,
     VoxelgridNearestSampler,
     VoxelgridHighestSampler
 )
-from pyntcloud.utils.array import point_in_array_2D
+from pycloud.utils.array import point_in_array_2D
 
 
 @pytest.mark.parametrize("n_x, n_y, n_z,expected_n,expected_point", [

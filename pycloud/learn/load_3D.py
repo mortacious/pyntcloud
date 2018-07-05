@@ -1,4 +1,4 @@
-from ..core_class import PyntCloud
+from ..pointcloud import PyntCloud
 
 
 def load_3D(path,

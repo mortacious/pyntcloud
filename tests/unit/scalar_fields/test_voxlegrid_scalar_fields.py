@@ -2,7 +2,7 @@ import pytest
 
 import numpy as np
 
-from pyntcloud.scalar_fields.voxelgrid import (
+from pycloud.scalar_fields.voxelgrid import (
     EuclideanClusters,
     VoxelgridScalarField,
     VoxelN,

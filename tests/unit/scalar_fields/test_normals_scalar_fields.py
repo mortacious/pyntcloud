@@ -2,7 +2,7 @@ import pytest
 
 import numpy as np
 
-from pyntcloud.scalar_fields.normals import (
+from pycloud.scalar_fields.normals import (
     InclinationDegrees,
     InclinationRadians,
     OrientationDegrees,

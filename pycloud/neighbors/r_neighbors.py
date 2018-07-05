@@ -6,7 +6,7 @@ def r_neighbors(kdtree, r):
 
     Parameters
     ----------
-    kdtree: pyntcloud.structrues.KDTree
+    kdtree: pycloud.structrues.KDTree
         The KDTree built on top of the points in point cloud
 
     r: float

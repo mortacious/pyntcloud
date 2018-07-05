@@ -1,7 +1,7 @@
 import pytest
 
-from pyntcloud.samplers import RandomPointsSampler
-from pyntcloud.utils.array import point_in_array_2D
+from pycloud.samplers import RandomPointsSampler
+from pycloud.utils.array import point_in_array_2D
 
 
 @pytest.mark.parametrize("n", [

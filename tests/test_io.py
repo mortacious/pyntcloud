@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from pyntcloud import PyntCloud
+from pycloud import PyntCloud
 
 path = os.path.abspath(os.path.dirname(__file__))
 data_path = path + '/data/diamond'

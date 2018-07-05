@@ -1,4 +1,4 @@
-from .core_class import PyntCloud
+from .pointcloud import PointCloud
 
 MAJOR = 0
 MINOR = 1

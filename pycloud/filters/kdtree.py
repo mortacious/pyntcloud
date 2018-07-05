@@ -12,7 +12,7 @@ class KDTreeFilter(Filter):
         Parameters
         ----------
         pyntcloud: pyntcloud.PyntCloud
-        kdtree_id: pyntcloud.structures.KDTree.id
+        kdtree_id: pycloud.structures.KDTree.id
             Usually returned from PyntCloud.add_structure("kdtree"):
             kdtree_id = my_cloud.add_structure("kdtree")
         """
@@ -32,7 +32,7 @@ class RadiusOutlierRemovalFilter(KDTreeFilter):
 
     Parameters
     ----------
-    kdtree_id: pyntcloud.structures.KDTree.id
+    kdtree_id: pycloud.structures.KDTree.id
     k : int
         Number of neighbors that will be used to compute the filter.
     r : float
@@ -70,7 +70,7 @@ class StatisticalOutlierRemovalFilter(KDTreeFilter):
 
     Parameters
     ----------
-    kdtree_id: pyntcloud.structures.KDTree.id
+    kdtree_id: pycloud.structures.KDTree.id
     k : int
         Number of neighbors that will be used to compute the filter.
     z_max: float

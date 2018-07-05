@@ -1,5 +1,5 @@
 import numpy as np
-from pyntcloud.geometry.coord_systems import (
+from pycloud.geometry.coord_systems import (
     spherical_to_cartesian,
     cartesian_to_spherical,
     cylindrical_to_cartesian,

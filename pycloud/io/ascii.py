@@ -1,13 +1,15 @@
 import pandas as pd
 
 
-def read_ascii(filename, **kwargs):
+def read_ascii(filename, names=("x", "y", "z"), **kwargs):
     """Read an ascii file and store elements in pandas DataFrame.
 
     Parameters
     ----------
     filename: str
         Path to the filename
+    names: list[str]
+        Names to load from the file. Must include "x", "y" and "z"
     kwargs: pandas.read_csv supported kwargs
         Check pandas documentation for all possibilities.
     Returns
@@ -16,9 +18,10 @@ def read_ascii(filename, **kwargs):
         Elements as pandas DataFrames.
     """
 
+    if not {"x", "y", "z"}.issubset(names):
+        raise ValueError("Required fields 'x','y','z' not in names")
     data = {}
-
-    data["points"] = pd.read_csv(filename, **kwargs)
+    data["points"] = pd.read_csv(filename, names=names, **kwargs)
 
     return data
 

@@ -2,7 +2,7 @@ import pytest
 
 from numpy.testing import assert_array_equal
 
-from pyntcloud.filters.xyz import BoundingBoxFilter
+from pycloud.filters.xyz import BoundingBoxFilter
 
 
 @pytest.mark.usefixtures("simple_pyntcloud")

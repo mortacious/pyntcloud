@@ -2,7 +2,7 @@ import pytest
 
 from pandas import DataFrame
 
-from pyntcloud import PyntCloud
+from pycloud import PyntCloud
 
 
 @pytest.mark.usefixtures("diamond")

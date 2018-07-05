@@ -3,8 +3,8 @@ import pytest
 import numpy as np
 import pandas as pd
 
-from pyntcloud import PyntCloud
-from pyntcloud.structures import VoxelGrid
+from pycloud import PyntCloud
+from pycloud.structures import VoxelGrid
 
 
 def test_default_number_of_voxels_per_axis(simple_pyntcloud):

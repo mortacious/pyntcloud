@@ -2,8 +2,8 @@ import pytest
 
 from pandas import DataFrame
 
-from pyntcloud import PyntCloud
-from pyntcloud.utils.array import point_in_array_2D
+from pycloud import PyntCloud
+from pycloud.utils.array import point_in_array_2D
 
 
 @pytest.mark.usefixtures("simple_pyntcloud")

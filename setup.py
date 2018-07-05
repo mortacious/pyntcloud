@@ -1,16 +1,16 @@
-import pyntcloud
+import pycloud
 from setuptools import setup, find_packages
 
-version = pyntcloud.__version__
+version = pycloud.__version__
 
 setup(
-    name='pyntcloud',
+    name='pycloud',
     version=version,
     description='Python library for working with 3D point clouds.',
-    url='https://github.com/daavoo/pyntcloud',
-    author='David de la Iglesia Castro',
-    author_email='daviddelaiglesiacastro@gmail.com',
-    license='HAKUNA MATATA',
+    url='https://github.com/mortacious/pycloud',
+    author='Felix Igelbrink',
+    author_email='',
+    license='',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[

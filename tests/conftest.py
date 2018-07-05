@@ -3,7 +3,7 @@ import pytest
 import numpy as np
 import pandas as pd
 
-from pyntcloud import PyntCloud
+from pycloud import PyntCloud
 
 
 @pytest.fixture()

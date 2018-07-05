@@ -1,6 +1,6 @@
 import pytest
 
-from pyntcloud.samplers import RandomMeshSampler
+from pycloud.samplers import RandomMeshSampler
 
 
 @pytest.mark.parametrize("n", [

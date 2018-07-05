@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# pyntcloud documentation build configuration file, created by
+# pycloud documentation build configuration file, created by
 # sphinx-quickstart on Mon Mar 20 12:52:03 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -58,7 +58,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'pyntcloud'
+project = 'pycloud'
 copyright = 'HAKUNA MATATA'
 author = 'David de la Iglesia Castro'
 
@@ -139,7 +139,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'pyntcloud.tex', 'pyntcloud Documentation',
+    (master_doc, 'pycloud.tex', 'pycloud Documentation',
      'David de la Iglesia Castro', 'manual'),
 ]
 
@@ -149,7 +149,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pyntcloud', 'pyntcloud Documentation',
+    (master_doc, 'pycloud', 'pycloud Documentation',
      [author], 1)
 ]
 
@@ -160,7 +160,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'pyntcloud', 'pyntcloud Documentation',
-     author, 'pyntcloud', 'One line description of project.',
+    (master_doc, 'pycloud', 'pycloud Documentation',
+     author, 'pycloud', 'One line description of project.',
      'Miscellaneous'),
 ]

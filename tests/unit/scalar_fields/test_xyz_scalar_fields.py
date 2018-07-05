@@ -2,7 +2,7 @@ import pytest
 
 import numpy as np
 
-from pyntcloud.scalar_fields.xyz import (
+from pycloud.scalar_fields.xyz import (
     PlaneFit,
     SphereFit,
     SphericalCoordinates,

@@ -3,7 +3,7 @@ import pytest
 import numpy as np
 import pandas as pd
 from shutil import rmtree
-from pyntcloud import PyntCloud
+from pycloud import PyntCloud
 
 path = os.path.abspath(os.path.dirname(__file__))
 
